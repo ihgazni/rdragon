@@ -6,7 +6,7 @@ commituser = $4
 
 reponame = rdragon
 
-echo https://${username}:${password}@github.com  > $HOME/.git-credentials
+echo https://${username}:${password}@github.com  >> $HOME/.git-credentials
 
 git init
 git remote add origin https://github.com/${username}/${reponame}.git
